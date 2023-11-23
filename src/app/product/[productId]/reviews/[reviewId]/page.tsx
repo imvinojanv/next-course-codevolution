@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 
 const ProductReviewPage = ({ 
     params 
@@ -7,6 +8,10 @@ const ProductReviewPage = ({
         reviewId: string;
     }
 }) => {
+    if (parseInt(params.reviewId) > 100) {
+        notFound();
+    }
+    
   return (
     <div className="flex flex-col justify-center items-center min-h-screen w-full">
         <h1 className="text-white font-medium text-xl my-2">
