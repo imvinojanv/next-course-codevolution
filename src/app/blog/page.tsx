@@ -1,5 +1,10 @@
 import Image from "next/image"
 
+// Export a static metadata object
+export const metadata = {
+  title: "Blog Page",
+}
+
 const BlogPage = () => {
   return (
     <section className="flex min-h-screen items-center justify-between p-24">
