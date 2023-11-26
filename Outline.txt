@@ -6,4 +6,14 @@
 6   -   Nested Routes
 7   -   Dynamic Routes
 8   -   Nested Dynamic Routes
-9   -   
+9   -   Catch-all Segments 
+10  -   404 Not Found Page
+11  -   File Colocation
+12  -   Private Folders
+13  -   Route Groups
+14  -   Layouts
+15  -   Nested Layouts
+16  -   Route Group Layouts
+17  -   Routing Metadata
+18  -   Title Metadata
+19  -   

@@ -1,8 +1,12 @@
 import Image from "next/image"
+import { Metadata } from "next"
 
-// Export a static metadata object
-export const metadata = {
-  title: "Blog Page",
+// For Template property title
+export const metadata: Metadata = {
+  // title: {
+  //   absolute: "Blog"    // Output: "Blog"
+  // }
+  title: "Blog",    // Output: "Blog | Next 14"
 }
 
 const BlogPage = () => {
